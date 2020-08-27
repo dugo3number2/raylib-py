@@ -56,7 +56,7 @@ import raylibpy
 You can set `"__file__"` as value to `"RAYLIB_BIN_PATH"` and _raylib-py_ will search for the binary in the package dir:
 
 ```python
-# bynary file is wherever the package is located.
+# binary file is wherever the package is located.
 os.environ["RAYLIB_BIN_PATH"] = "__file__"
 ```
 
